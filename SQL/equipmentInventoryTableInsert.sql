@@ -1,0 +1,28 @@
+INSERT INTO equipmentInventory (
+    equipment_name,
+    equipment_unit,
+    equipment_quantity,
+    equipment_date_last_purchased,
+    equipment_lifespan_days,
+    equipment_info
+) VALUES
+('Chef Knife Set',            'sets',  3,  '2024-11-10', 730, 'High-quality knives used daily; resharpened weekly.'),
+('Cutting Boards',            'units', 12, '2025-01-15', 365, 'Various sizes; used for produce and meats.'),
+('Pizza Oven',                'units', 1,  '2023-08-01', 1825,'Primary oven; receives quarterly maintenance.'),
+('Pasta Roller Machine',      'units', 1,  '2024-10-05', 1095,'Used for fresh pasta production.'),
+('Stainless Steel Prep Tables','units',4,  '2023-12-20', 1825,'Heavy-duty prep tables for kitchen line.'),
+('Stock Pots',                'units', 6,  '2024-04-12', 1460,'Large pots used for sauces and soups.'),
+('Sauce Pans',                'units', 8,  '2024-07-18', 1095,'Medium-sized for everyday cooking.'),
+('Cast Iron Skillets',        'units', 5,  '2024-09-10', 1460,'Used for searing proteins and oven finishing.'),
+('Mixing Bowls',              'sets',  5,  '2024-12-01', 1095,'Stainless steel sets used for prep.'),
+('Commercial Mixer',          'units', 1,  '2024-03-08', 1825,'Used for dough mixing; belt replaced recently.'),
+('Refrigerator',              'units', 1,  '2023-10-22', 1825,'Walk-in refrigeration unit; inspected regularly.'),
+('Freezer Unit',              'units', 1,  '2023-11-30', 1825,'Back kitchen freezer for proteins and sauces.'),
+('Food Storage Containers',   'sets',  10, '2025-01-12', 365,'Plastic Cambro containers for ingredients.'),
+('Digital Thermometers',      'units', 6,  '2024-06-25', 730,'Critical for food safety and temperature checks.'),
+('Garlic Press Tools',        'units', 4,  '2025-01-20', 365,'Used frequently for prep; wear out quickly.'),
+('Oven Mitts & Gloves',       'pairs', 8,  '2025-02-02', 180,'High heat-resistant mitts.'),
+('Sheet Pans',                'units', 20, '2024-12-14', 730,'Used for baking, roasting, and pizza bases.'),
+('Food Processor',            'units', 1,  '2024-05-19', 1460,'Used for slicing, shredding, sauces.'),
+('Dish Racks',                'units', 6,  '2024-10-30', 1095,'Used in dishwashing area daily.'),
+('Rolling Pins',              'units', 3,  '2024-11-22', 1460,'Used for dough preparation.');

@@ -1,0 +1,26 @@
+INSERT INTO ingredientInventory (
+    ingredient_name,
+    ingredient_unit,
+    ingredient_quantity,
+    ingredient_info
+) VALUES
+('Mozzarella Cheese',            'lbs',    25, 'Shredded whole-milk mozzarella for pizzas.'),
+('Parmesan Cheese',              'lbs',    15, 'Grated Parmigiano-Reggiano.'),
+('Ricotta Cheese',               'lbs',    20, 'Used for lasagna and stuffed shells.'),
+('Tomato Sauce',                 'gal',    12, 'House red sauce base; canned Italian tomatoes.'),
+('Crushed Tomatoes',             'cans',   30, 'Imported 28oz cans; used for sauces.'),
+('Olive Oil',                    'gal',     8, 'Extra virgin olive oil; front and back-of-house use.'),
+('Fresh Garlic',                 'lbs',    10, 'Whole garlic bulbs.'),
+('Fresh Basil',                  'lbs',     5, 'Used for caprese and garnishing.'),
+('Spaghetti Pasta',              'lbs',    40, 'Dry pasta; main menu item.'),
+('Fettuccine Pasta',             'lbs',    35, 'Dry pasta for Alfredo dishes.'),
+('Penne Pasta',                  'lbs',    45, 'Used for baked pasta dishes.'),
+('Lasagna Sheets',               'lbs',    20, 'Dry lasagna noodles; used daily.'),
+('Italian Sausage',              'lbs',    25, 'Mild Italian sausage links.'),
+('Ground Beef',                  'lbs',    30, 'Used in meat sauce and lasagna.'),
+('Chicken Breast',               'lbs',    35, 'Used for various entrees.'),
+('Fresh Tomatoes',               'lbs',    18, 'Used in salads and fresh sauces.'),
+('Mushrooms',                    'lbs',    12, 'Fresh sliced mushrooms for toppings.'),
+('Red Onions',                   'lbs',    15, 'Used in salads, sandwiches, and sauces.'),
+('Bread Loaves',                 'loaves', 20, 'House garlic bread and table bread.'),
+('Heavy Cream',                  'qt',     24, 'For Alfredo sauce and desserts.');

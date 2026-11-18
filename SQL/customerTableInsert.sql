@@ -1,0 +1,28 @@
+INSERT INTO customers (
+    customer_fname, 
+    customer_lname, 
+    customer_usual_menuitem,
+    customer_timesvisited, 
+    customer_lastvisit_date, 
+    customer_notes
+) VALUES
+('Mike', 'Wheeler', 3, 14, '2025-01-10', 'Comes in with friends; always orders Fettuccine Alfredo.'),
+('Eleven', 'Hopper', 11, 9, '2025-01-09', 'Loves garlic bread; dislikes spicy foods.'),
+('Dustin', 'Henderson', 7, 12, '2025-01-11', 'Big fan of Meat Lovers Pizza. Talks a lot.'),
+('Lucas', 'Sinclair', 14, 6, '2025-01-02', 'Prefers meatballs; avoids dairy-heavy dishes.'),
+('Max', 'Mayfield', 13, 8, '2024-12-29', 'Orders Caprese Salad frequently; likes basil-heavy flavors.'),
+('Will', 'Byers', 1, 10, '2025-01-04', 'Lasagna is his comfort food. Often dines alone.'),
+('Jonathan', 'Byers', 6, 4, '2024-12-22', 'Prefers Margherita Pizza with extra basil.'),
+('Joyce', 'Byers', 5, 15, '2025-01-08', 'Always polite; orders Penne alla Vodka.'),
+('Jim', 'Hopper', 4, 11, '2025-01-06', 'Always gets Chicken Parmesan; leaves big tips.'),
+('Nancy', 'Wheeler', 10, 7, '2025-01-03', 'Ravioli Ricotta and a cappuccino (when available).'),
+('Steve', 'Harrington', 3, 16, '2025-01-12', 'Fettuccine Alfredo enthusiast; brings dates here.'),
+('Robin', 'Buckley', 12, 5, '2024-12-30', 'Side Caesar Salad and sparkling water every visit.'),
+('Erica', 'Sinclair', 15, 3, '2024-12-20', 'Loves mozzarella sticks; picky eater.'),
+('Billy', 'Hargrove', 7, 6, '2024-12-28', 'Usually quiet; orders Meat Lovers Pizza.'),
+('Eddie', 'Munson', 6, 9, '2025-01-07', 'Margherita Pizza; chats with staff about music.'),
+('Argyle', 'Morales', 17, 4, '2025-01-05', 'Italian Soda fan; asks about vegan options.'),
+('Murray', 'Bauman', 18, 2, '2024-12-19', 'Espresso only; analyzes everything.'),
+('Dr.', 'Owens', 9, 5, '2024-12-27', 'Shrimp Scampi (uses chicken substitute).'),
+('Karen', 'Wheeler', 20, 6, '2025-01-01', 'Orders Tiramisu after nearly every meal.'),
+('Barbara', 'Holland', 2, 3, '2024-12-14', 'Prefers Spaghetti Bolognese; quiet and polite.');
