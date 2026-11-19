@@ -23,12 +23,23 @@ TABLE_TO_SCRIPT = {
 }
 
 def launch_script(script_name):
-    if not os.path.exists(script_name):
-        fsg.popup_error(f"File not found:\n{script_name}\n\nCreate this GUI file first.")
+     # Get the directory containing this Python file
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Build the full path to the GUI script
+    script_path = os.path.join(base_dir, script_name)
+
+    if not os.path.exists(script_path):
+        fsg.popup_error(
+            f"File not found:\n{script_path}\n\nCreate this GUI file first."
+        )
         return
 
-    # Runs the file with the same python interpreter
-    subprocess.Popen([sys.executable, script_name])
+    # Run using the same Python interpreter
+    subprocess.Popen(
+    [sys.executable, script_path],
+    cwd=base_dir
+)
 
 
 def main():
